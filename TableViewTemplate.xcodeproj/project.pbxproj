@@ -13,6 +13,8 @@
 		F535E4E124B5A19A008BD621 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F535E4DF24B5A19A008BD621 /* Main.storyboard */; };
 		F535E4E324B5A19B008BD621 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F535E4E224B5A19B008BD621 /* Assets.xcassets */; };
 		F535E4E624B5A19B008BD621 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F535E4E424B5A19B008BD621 /* LaunchScreen.storyboard */; };
+		F535E4EF24B5A233008BD621 /* TableViewSectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F535E4ED24B5A233008BD621 /* TableViewSectionViewController.swift */; };
+		F535E4F024B5A233008BD621 /* TableViewSectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F535E4EE24B5A233008BD621 /* TableViewSectionViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F535E4E224B5A19B008BD621 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F535E4E524B5A19B008BD621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F535E4E724B5A19B008BD621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F535E4ED24B5A233008BD621 /* TableViewSectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSectionViewController.swift; sourceTree = "<group>"; };
+		F535E4EE24B5A233008BD621 /* TableViewSectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewSectionViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		F535E4D824B5A19A008BD621 /* TableViewTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				F535E4F124B5A238008BD621 /* Table View Sections */,
 				F535E4D924B5A19A008BD621 /* AppDelegate.swift */,
 				F535E4DB24B5A19A008BD621 /* SceneDelegate.swift */,
 				F535E4DD24B5A19A008BD621 /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				F535E4E724B5A19B008BD621 /* Info.plist */,
 			);
 			path = TableViewTemplate;
+			sourceTree = "<group>";
+		};
+		F535E4F124B5A238008BD621 /* Table View Sections */ = {
+			isa = PBXGroup;
+			children = (
+				F535E4ED24B5A233008BD621 /* TableViewSectionViewController.swift */,
+				F535E4EE24B5A233008BD621 /* TableViewSectionViewController.xib */,
+			);
+			path = "Table View Sections";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +141,7 @@
 			files = (
 				F535E4E624B5A19B008BD621 /* LaunchScreen.storyboard in Resources */,
 				F535E4E324B5A19B008BD621 /* Assets.xcassets in Resources */,
+				F535E4F024B5A233008BD621 /* TableViewSectionViewController.xib in Resources */,
 				F535E4E124B5A19A008BD621 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +155,7 @@
 			files = (
 				F535E4DE24B5A19A008BD621 /* ViewController.swift in Sources */,
 				F535E4DA24B5A19A008BD621 /* AppDelegate.swift in Sources */,
+				F535E4EF24B5A233008BD621 /* TableViewSectionViewController.swift in Sources */,
 				F535E4DC24B5A19A008BD621 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

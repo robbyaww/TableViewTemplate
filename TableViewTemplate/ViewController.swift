@@ -9,11 +9,20 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var btnNext: UIButton!
+    
+    @IBAction func btnNextAction(_ sender: Any) {
+        let vc = TableViewSectionViewController()
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    
 
 
 }
